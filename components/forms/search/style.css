@@ -5,7 +5,7 @@ body {
 	background-color: #FFF3E1;
 }
 
-.signup-container {
+.search-container {
 
 	margin:auto;
 	margin-top: 20px;
@@ -23,12 +23,12 @@ body {
 	background: linear-gradient(45deg, #FFF3E1, salmon);
 }
 
-.signup-box {
+.search-box {
 
 	height: 30px;
 }
 
-.signup-container input[type="text"] {
+.search-container input[type="text"] {
 
 	font-size: 20px;
 	border: 2px solid salmon;
@@ -38,12 +38,12 @@ body {
 	margin:5px;
 }
 
-.signup-container input[type="text"]:hover {
+.search-container input[type="text"]:hover {
 
 	background-color: lightblue;
 }
 
-.signup-container form button {
+.search-container form button {
 	color: salmon;
 	font-size: 20px;
 	border-radius: 5px;
@@ -52,15 +52,17 @@ body {
 	margin-top: 10px;
 }
 
-.signup-container form button:hover {
+.search-container form button:hover {
 	background-color: lightblue;
 }
 
 
+.search-container input::-webkit-input-placeholder {
+  color: salmon;
+}
 
-
-
-
-
+.search-container input:-moz-placeholder{
+  color: salmon;
+}
 
 

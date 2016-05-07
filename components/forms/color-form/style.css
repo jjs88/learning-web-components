@@ -5,7 +5,7 @@ body {
 	background-color: #FFF3E1;
 }
 
-.signup-container {
+.color-container {
 
 	margin:auto;
 	margin-top: 20px;
@@ -21,29 +21,32 @@ body {
 	font-family: Helvetica, arial;
 	/*background-color: #FFF3E1;*/
 	background: linear-gradient(45deg, #FFF3E1, salmon);
+	text-align: center;
 }
 
-.signup-box {
+.color-box {
 
 	height: 30px;
 }
 
-.signup-container input[type="text"] {
+.color-container input[type="range"] {
 
-	font-size: 20px;
+	/*font-size: 20px;
 	border: 2px solid salmon;
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px salmon;
 	padding:5px;
-	margin:5px;
+	margin:5px;*/
+	text-align: center;
+	width:50%;
 }
 
-.signup-container input[type="text"]:hover {
+.color-container input[type="text"]:hover {
 
 	background-color: lightblue;
 }
 
-.signup-container form button {
+.color-container form button {
 	color: salmon;
 	font-size: 20px;
 	border-radius: 5px;
@@ -52,8 +55,15 @@ body {
 	margin-top: 10px;
 }
 
-.signup-container form button:hover {
+.color-container form button:hover {
 	background-color: lightblue;
+}
+
+
+.color-container textarea {
+	width:50%;
+	height: 200px;
+	margin: 20px 0 0 0;
 }
 
 

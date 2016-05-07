@@ -1,0 +1,13 @@
+.general {
+
+	text-align: center;
+}
+
+
+.box {
+
+	width: 33%;
+	display: inline-block;
+	background-color: red;
+	/*vertical-align: top;*/
+}
