@@ -9,7 +9,6 @@ body {
 
 	margin:auto;
 	margin-top: 20px;
-	/*text-align: center;*/
 	border: 10px solid lightblue;
 	width: 50%;
 	min-width: 300px;
@@ -19,7 +18,6 @@ body {
 	color: salmon;
 	border-radius: 5px;
 	font-family: Helvetica, arial;
-	/*background-color: #FFF3E1;*/
 	background: linear-gradient(45deg, #FFF3E1, salmon);
 	text-align: center;
 }
