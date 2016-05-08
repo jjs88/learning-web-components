@@ -14,10 +14,10 @@ body {
 	min-width: 300px;
 	padding: 20px;
 	font-size: 30px;
-	color: salmon;
+	color: #FFF3E1;
 	border-radius: 5px;
 	font-family: Helvetica, arial;
-	background: linear-gradient(45deg, #FFF3E1, salmon);
+	background: linear-gradient(45deg, salmon, #FFF3E1);
 }
 
 

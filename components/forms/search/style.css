@@ -28,7 +28,7 @@ body {
 	height: 30px;
 }
 
-.search-container input[type="text"] {
+.search-container input[type="text"], button, select {
 
 	font-size: 20px;
 	border: 2px solid salmon;
@@ -36,6 +36,8 @@ body {
 	box-shadow: 2px 2px 2px salmon;
 	padding:5px;
 	margin:5px;
+	background-color: white;
+	color:salmon;
 }
 
 .search-container input[type="text"]:hover {
@@ -43,13 +45,13 @@ body {
 	background-color: lightblue;
 }
 
-.search-container form button {
-	color: salmon;
-	font-size: 20px;
-	border-radius: 5px;
-	background-color: white;
+
+
+.search-container select {
+
 	padding: 5px;
-	margin-top: 10px;
+	margin-bottom: 5px;
+
 }
 
 .search-container form button:hover {
