@@ -9,7 +9,7 @@ body {
 
 	margin:auto;
 	margin-top: 20px;
-	/*text-align: center;*/
+	text-align: center;
 	border: 10px solid lightblue;
 	width: 50%;
 	min-width: 300px;
@@ -26,6 +26,7 @@ body {
 .search-box {
 
 	height: 30px;
+	width:40%;
 }
 
 .search-container input[type="text"], button, select {
@@ -38,6 +39,7 @@ body {
 	margin:5px;
 	background-color: white;
 	color:salmon;
+	text-align: center;
 }
 
 .search-container input[type="text"]:hover {
