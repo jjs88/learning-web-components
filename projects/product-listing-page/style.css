@@ -26,10 +26,11 @@ p, img, h1 section h2{
 .product {
 
 	width:30%;
-	/*border: 1px solid black;*/
+	border: 1px solid black;
 	display: inline-block;
 	font-style: impact;
 	margin: 10px;
+	position: relative;
 
 }
 
@@ -53,6 +54,39 @@ p, img, h1 section h2{
 
 .product p {
 	/*border: 1px solid black;*/
+}
+
+
+.cart-group {
+	display: inline-block;
+	padding: 5px;
+}
+
+.cart-group button {
+	padding:5px;
+	margin:0;
+	outline: none;
+
+}
+
+.cart-group input[type="text"] {
+	width:8%;
+	text-align: center;
+}
+
+.cart-btn {
+	margin:0;
+	padding:5px;
+	/*border:1px solid;*/
+	position: absolute;
+	bottom:0;
+	left:5px;
+}
+
+.cart-btn button {
+	margin:0;
+	padding:5px;
+	outline: none;
 }
 
 
